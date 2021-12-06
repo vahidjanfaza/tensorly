@@ -45,7 +45,7 @@ Example and comparison of Non-negative Tucker decompositions.
 
 import numpy as np
 import tensorly as tl
-from tensorly.decomposition import non_negative_tucker, non_negative_tucker_hals
+from tensorly.decomposition import _tucker
 import time
 from tensorly.metrics.regression import RMSE
 import matplotlib.pyplot as plt
